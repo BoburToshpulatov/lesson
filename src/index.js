@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import HomeComponent from './components/home';
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <h1>Bismillah</h1>
+  <HomeComponent/>
   </React.StrictMode>
 );
 

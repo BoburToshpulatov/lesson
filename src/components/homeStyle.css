@@ -1,0 +1,478 @@
+
+.bgwrapper{
+    background-image: url('../assets/scandinavian-interior-mockup-wall-decal-background\ 1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 30px;
+    
+}
+.new-collection{
+    width: 550px;
+    height: 350px;
+    background-color: #DFE9F4;
+    border-radius: 10px;
+    padding: 35px ;
+   }
+   .new-collection h1{
+    color: var(--Font-Color, #333);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 3px;
+   }
+   .new-collection p{
+    color: var(--Font-Color, #333);
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 39px; /* 216.667% */
+   }
+   .new-collection button{
+    border-radius: 50px;
+background: var(--Primary-color, #054C73);
+display: inline-flex;
+padding: 25px 72px;
+align-items: flex-start;
+gap: 10px;
+color: white;
+border: none;
+   }
+   
+   .extra-information{
+    background-color: #F2F5FF;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+   }
+   .delivery{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   }
+
+   .deliver-text h1{
+    color: var(--Font-Color, #333);
+font-family: Montserrat;
+font-size: 19px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: #333333;
+  }
+  .deliver-text p{
+    color: var(--Font-Color, #333);
+font-family: Montserrat;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: #333333;
+margin-top: -9px;
+  }
+
+  .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  .heading h1{
+    color: var(--Font-Color, #333);
+font-family: Montserrat;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .heading p{
+    color: var(--Font-Color1, #666);
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: -3px;
+  }
+  .pictures{
+    height: 450px;
+    margin-left: 90px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+   
+  }
+.picture1{
+    width: 330px;
+    background-image: url('../assets/empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering\ 2.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 35px;
+    border-radius: 60px 0px 0px 0px;
+}
+.picture2{
+    width: 330px;
+    background-image: url('../assets/scandinavian2.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 35px;
+}
+.picture3{
+    width: 330px;
+    background-image: url('../assets/interior-has-yellow-armchair-empty-gray-wall-background\ 1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 35px;
+}
+
+.girl-photo{
+    height: 640px;
+    display: flex;
+    background-color: #F2F5FF;
+    margin-top: 50px;
+    padding-left: 60px;
+}
+.girl-photo-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+  
+}
+.girl-photo-left h1{
+    color: var(--Font-Color, #333);
+font-family: Montserrat;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: -10px;
+margin-right: 65px;
+
+
+}
+.girl-photo-left p{
+    color: var(--Font-Color1, #666);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 195% */
+width: 350px;
+margin-top: -5px;
+margin-left: 25px;
+}
+.girl-photo-left button{
+    display: inline-flex;
+padding: 18px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 50px;
+background-color: #054C73;
+color: white;
+border: none;
+font-size: 10px;
+font-weight: 700;
+font-family: Montserrat;
+margin-right: 175px;
+}
+.girl-photo-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    
+}
+
+.girl-img{
+    width: 400px;
+   height: 550px;
+    background-image: url('../assets/image\ 97.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    border-radius: 60px 10px 60px 10px;
+}
+.girl-photo-right img{
+    width: 285px;
+    height: 285px;
+    margin-left: -210px;
+    margin-top: 20px;
+}
+
+.picture-heading2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 30px;
+}
+.picture-heading2 h1{
+    color: var(--Font-Color, #333);
+font-family: Montserrat;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.picture-heading2 p{
+    color: var(--Font-Color1, #666);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -6px;
+    margin-left: 30px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    height: 420px;
+    margin: 30px 100px 0px 100px;
+}
+.gallery-pic1{
+    width: 335px;
+    background-image: url('../assets/gallery1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   border-radius: 6px
+}
+.gallery-pic2{
+    width: 335px;
+    background-image: url('../assets/gallery2.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   border-radius: 6px
+}
+.gallery-pic3{
+    width: 335px;
+    background-image: url('../assets/gallery3.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   border-radius: 6px
+}
+.name-pic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 90px 30px 90px;
+    border-bottom: 1.5px solid #D7D6D6;
+
+}
+.name-pic h1{
+    color: var(--Font-Color, #333);
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.picture-heading3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.picture-heading3 h1{
+    color: var(--Font-Color, #333);
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.picture-heading3 p{
+    color: var(--Font-Color1, #666);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -1px;
+    }
+
+    .second-gallery{
+        display: flex;
+        justify-content: space-between;
+        height: 420px;
+        margin: 30px 100px 0px 100px;
+    }
+    .gallery-box1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-pic1{
+        width: 335px;
+        height: 370px;
+        background-image: url('../assets/african-american-man-paying-with-credit-card-online-while-making-orders-via-mobile-internet-making-transaction-using-mobile-bank-application\ 1.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       border-radius: 6px
+    }
+    .box-pic2{
+        width: 335px;
+        height: 370px;
+    background-image: url('../assets/pyramide.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   border-radius: 6px
+    }
+    .box-pic3{
+        width: 335px;
+        height: 370px;
+    background-image: url('../assets/cactus.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   border-radius: 6px
+    }
+    .ring{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin-top: -31px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ring button{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background-color: #111;
+border: none;
+    }
+
+    .options{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px 85px 0px 85px;
+        margin-top: -10px;
+    }
+    .option1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .option1 h1{
+        color: var(--Font-Color, #333);
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    .option1 p{
+        color: var(--Font-Color1, #666);
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 155.556% */
+margin-top: -5px;
+    }
+
+    .email{
+        height: 330px;
+        background-color: #F2F5FF;
+        margin-top: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .email-text h1{
+        color: var(--Font-Color, #333);
+text-align: center;
+font-family: Montserrat;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    .email-text p{
+        color: var(--Font-Color1, #666);
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 195% */
+width: 350px;
+margin-top: -5px;
+    }
+    .submit-btn{
+        margin-top: 25px;
+    }
+  .submit-btn input{
+width: 300px;
+height: 46px;
+padding-left: 15px;
+border: 1px solid #054C73;
+border-radius: 3px;
+
+
+  }
+  .submit-btn button{
+    width: 120px;
+    height: 49px;
+    border-radius: 3px;
+    border: 1px solid #011C42;
+    background: var(--Primary-color, #054C73);
+    color: #FFF;
+font-family: Montserrat;
+font-size: 11px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: -45px;
+margin-top: -2px;
+
+  }
+    
+
